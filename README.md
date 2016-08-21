@@ -8,7 +8,7 @@ Build Status:
 
 Floodlight Wiki
 ---------------
-
+说明：
 通过floodlight控制器结合mininet打印端口到端口的时延统计信息，ovs版本为2.3。具体实现在以下说明：
 floodlight1.2-delay/src/main/java/net/floodlightcontroller/linkdiscovery/internal/LinkDiscoveryManager.java
 此文件用于打印时延信息，利用LLDP，packet-out和packet-in,以及echo消息进行统计，其中echo消息用于去除交换机到控制器的时延。
